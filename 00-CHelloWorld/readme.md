@@ -28,3 +28,7 @@ trabajos posteriores.
 - Se corrió el programa desde la terminal usando el siguiente comando "./Hello.c > output.txt" para poder capturar la salida en un archivo de texto plano
 
 ------------
+
+## Proceso de compilación
+
+![Proceso de compilación](https://user-images.githubusercontent.com/63465251/115128763-85a55000-9fb6-11eb-9880-84a46648b7e7.jpeg)
