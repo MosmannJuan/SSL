@@ -33,4 +33,4 @@ trabajos posteriores.
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/63465251/115128763-85a55000-9fb6-11eb-9880-84a46648b7e7.jpeg">
 </p>
-![Proceso de compilación](https://user-images.githubusercontent.com/63465251/115128763-85a55000-9fb6-11eb-9880-84a46648b7e7.jpeg)
+
