@@ -46,7 +46,7 @@ trabajos posteriores.
 >> ### Sin return ni include
 >> ![gccSinInclude](https://user-images.githubusercontent.com/63465251/115166937-f8ccc600-a08b-11eb-818b-c9e7030f9792.jpg)
 >> ### Conclusiones
->> #### En el caso del compilador gcc podemos ver que el código ensamblador no varía en ninguno de estos casos, al no agregar el return podemos ver como el compilador lo agrega por nosotros, este es el caso de la instrucción de la línea 9. Si podemos resaltar el hecho de que, al sacar el include, el compilador nos envía un Warning indicandonos que estamos declarando de forma implicita una función perteneciente a una biblioteca, aún así el código puede compilarse de todas maneras.
+>> #### En el caso del compilador gcc podemos ver que el código ensamblador no varía en ninguno de estos casos, al no agregar el return podemos ver como el compilador lo agrega por nosotros, este es el caso de la instrucción de la línea 9. Si podemos resaltar el hecho de que, al sacar el include, el compilador nos envía un Warning indicandonos que estamos declarando de forma implicita una función incorporada, aún así el código puede compilarse de todas maneras.
 
 
 >> ### Clang
