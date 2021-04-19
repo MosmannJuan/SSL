@@ -46,7 +46,7 @@ trabajos posteriores.
 >> ### Sin return ni include
 >> ![gccSinInclude](https://user-images.githubusercontent.com/63465251/115166937-f8ccc600-a08b-11eb-818b-c9e7030f9792.jpg)
 >> ### Conclusiones
->> #### En el caso del compilador gcc podemos ver que el código ensamblador no varía en ninguno de estos casos, al no agregar el return podemos ver como el compilador lo agrega por nosotros, este es el caso de la instrucción de la línea 9. Si podemos resaltar el hecho de que, al sacar el include, el compilador nos envía un Warning indicandonos que estamos utilizando una función no declarada, aún así el código puede compilarse de todas maneras.
+>> #### En el caso del compilador gcc podemos ver que el código ensamblador no varía en ninguno de estos casos, al no agregar el return podemos ver como el compilador lo agrega por nosotros, este es el caso de la instrucción de la línea 9. Si podemos resaltar el hecho de que, al sacar el include, el compilador nos envía un Warning indicandonos que estamos declarando de forma implicita una función perteneciente a una biblioteca, aún así el código puede compilarse de todas maneras.
 
 
 >> ### Clang
@@ -58,7 +58,7 @@ trabajos posteriores.
 >> ### Sin return ni include
 >> ![ClangSinInclude](https://user-images.githubusercontent.com/63465251/115167298-688f8080-a08d-11eb-9885-6a7988c2b737.jpg)
 >> ### Conclusiones
->> #### Utilizando el compilador clang si podemos notar diferencias en el código ensamblador generado pero únicamente en el caso que quitamos el return, esto se ve en la desaparición de la instrucción de la linea 5. Al no agregar el include el código ensamblador generado es igual al caso anterior, pero de igual forma que lo hace gcc, envía un Warning indicandonos que usamos una función no declarada.
+>> #### Utilizando el compilador clang si podemos notar diferencias en el código ensamblador generado pero únicamente en el caso que quitamos el return, esto se ve en la desaparición de la instrucción de la linea 5. Al no agregar el include el código ensamblador generado es igual al caso anterior, pero de igual forma que lo hace gcc, envía un Warning indicandonos que estamos declarando de forma implicita una función ya perteneciente a una biblioteca.
 
 
 ## Conclusiones finales
