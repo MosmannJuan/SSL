@@ -64,6 +64,6 @@ trabajos posteriores.
 ## Conclusiones finales
 
 #### Se pudo ver como distintos compiladores tienen distintas formas de traducir a código ensamblador un mismo código fuente. En el caso de Clang, daría la impresión de que resulta más reactivo a cambios en el código, mientras que gcc, no produjo cambio alguno en el código ensamblador al pasar por los diferentes casos.
-#### Se puede apreciar como ambos códigos ensamblador solo se encargan de hacer el llamado a la función printf (Que en caso de no incluir la biblioteca que contiene la información sobre esta función, pareciera que puede buscarla igual solamente lanzando una advertencia). Para esto ambos compiladores utilizan registros similares. Algo que podemos resaltar es el hecho de que el codigo ensamblador generado por clang, utiliza el registro "rdi" de 64 bits para almacenar el string, mientras que el compilador gcc lo almacena en el registro "edi" de 32.
+#### Se puede apreciar como ambos códigos ensamblador solo se encargan de hacer el llamado a la función printf (Que en caso de no incluir la biblioteca que contiene la información sobre esta función, pareciera que puede buscarla igual solamente lanzando una advertencia). Para esto ambos compiladores utilizan registros similares. Algo que podemos resaltar es el hecho de que el codigo ensamblador generado por clang, utiliza el registro "rdi" de 64 bits para almacenar la dirección en la cual se encuentra el string, mientras que el compilador gcc la almacena en el registro "edi" de 32.
 
  
