@@ -37,7 +37,7 @@ trabajos posteriores.
 #### Se utilizó la herramienta [Compiler Explorer](https://godbolt.org/) para comparar los códigos de ensamblador generados por el compilador gcc y clang. Para ambos se compararon 3 casos del código fuente usando como base [Hello.c](https://github.com/MosmannJuan/SSL/blob/main/00-CHelloWorld/Hello.c), archivo que se encuentra en este mismo repositorio. Los casos evaluedos son, código fuente tal cual está en el archivo, sin return y, finalmente, sin return ni include de la biblioteca stdio.h.
 
 >> ### GCC
->> #### Se utilizó la versión 9.2.0 debido a que es la que tengo instalada en mi computadora.
+>> #### Se utilizó la versión 9.2.0 debido a que es la que tengo instalada en mi entorno local.
 >> ![VersionGcc](https://user-images.githubusercontent.com/63465251/115166860-a5f30e80-a08b-11eb-9962-238b6d822bde.jpg)
 >> ### Versión completa
 >> ![gccCompleto](https://user-images.githubusercontent.com/63465251/115166886-be632900-a08b-11eb-8134-2384dd5a44be.jpg)
