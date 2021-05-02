@@ -33,3 +33,4 @@
 ### Resolución
 - Para la compilación se utilizó el estandar C18 (Se indica en la creación de los objetos .o en makefile)
 - Intenté realizar las funciones para el crédito extra, pero la función PrintFila no funciona de la manera esperada.
+- EDIT: Se corrigió la funcion PrintFila. El problema estaba en el string que daba el formato, que se cambio por el siguiente "Celsius: %3.2f  Fahrenheit: %6.2f\n".

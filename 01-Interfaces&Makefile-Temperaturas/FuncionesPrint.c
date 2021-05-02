@@ -22,12 +22,10 @@ void PrintFilas(double (*funcion)(double), char formato[], int lower, int step, 
 
 void PrintTablaFahrenheit(int lower, int step, int upper){
     printf("Tabla de celsius a fahrenheit \n");
-    printf("Celsius Fahrenheit\n");
-    PrintFilas(Fahrenheit, "%3d %6lf\n", lower, step, upper);
+    PrintFilas(Fahrenheit, "Celsius: %3.2f  Fahrenheit: %6.2f\n", lower, step, upper);
 }
 
 void PrintTablaCelsius(int lower, int step, int upper){
     printf("Tabla de fahrenheit a celsius \n");
-    printf("Fahrenheit Celsius \n");
-    PrintFilas(Celsius, "%3d %6lf\n", lower, step, upper);
+    PrintFilas(Celsius, "Fahrenheit: %3.2f Celsius: %6.2f\n", lower, step, upper);
 }
